@@ -1,18 +1,32 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi — I'm Abuzar  
+This repository contains my web developer portfolio showcasing projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## About
+This is the source for my personal portfolio website. It demonstrates my work as a web developer, including projects, demos, and links to live sites or repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+Common technologies used in this portfolio (update as needed):
+- HTML
+- CSS
+- Tailwindcss
+- JavaScript
+- React / Vue / Next.js / Vite
+- Node.js / npm for build tooling
 
-## React Compiler
+## Projects
+Each project has its own folder or link in this repo. Inside you will usually find:
+- A README for the project
+- Source code (HTML/CSS/JS, components, assets)
+- Instructions to run or build
+## Contact
+- GitHub: https://github.com/Abuzar84
+- Email: sayyedabuzar021@gmail.com
+- LinkedIn:https://www.linkedin.com/in/sayyed-abuzar-6ba990279/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Contributing
+This is my personal portfolio. If you want to suggest changes, open an issue or send a PR and I'll review it.
 
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This repository is available under the MIT License. Update or change this if you prefer a different license.

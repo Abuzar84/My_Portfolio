@@ -7,7 +7,7 @@ This repository contains my web developer portfolio showcasing projects, skills,
 This is the source for my personal portfolio website. It demonstrates my work as a web developer, including projects, demos, and links to live sites or repositories.
 
 ## Technologies
-Common technologies used in this portfolio (update as needed):
+Common technologies used in this portfolio:
 - HTML
 - CSS
 - Tailwindcss

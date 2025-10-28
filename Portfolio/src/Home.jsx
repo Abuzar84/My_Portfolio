@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import MyLogo from './assets/as.png';  
 import CalcLogo from './assets/My_Calculator_Space.webp';
 
@@ -100,7 +100,7 @@ function Home() {
                             <div className="w-auto">
                                 <h2 className="text-4xl sm:text-2xl font-extrabold mb-4">Website Themes</h2>
                                 <span className="flex justify-center ">
-                                    <a href="https://www.mycalculatorspace.in/" className="border-2">
+                                    <Link to="/Hoteltheme" className="border-2">
                                         <img
                                             src={CalcLogo}
                                             alt="My Calculator Space"
@@ -108,7 +108,7 @@ function Home() {
                                             className="w-64"
                                         />
                                         My Calculator Space
-                                    </a>
+                                    </Link>
                                 </span>
                             </div>
                         </div>

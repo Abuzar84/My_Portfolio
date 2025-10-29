@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import MyLogo from './assets/as.png';  
-import CalcLogo from './assets/My_Calculator_Space.webp';
+import Hoteltheme from './assets/Hoteltheme.png';
 
 function Home() {
     // Create References for sections
@@ -102,12 +102,12 @@ function Home() {
                                 <span className="flex justify-center ">
                                     <Link to="/Hoteltheme" className="border-2">
                                         <img
-                                            src={CalcLogo}
-                                            alt="My Calculator Space"
-                                            title="My Calculator Space"
+                                            src={Hoteltheme}
+                                            alt="My Hotel Theme"
+                                            title="My Hotel Theme"
                                             className="w-64"
                                         />
-                                        My Calculator Space
+                                        My Hotel Theme
                                     </Link>
                                 </span>
                             </div>

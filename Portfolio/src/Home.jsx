@@ -74,12 +74,6 @@ function Home() {
                         </li>
                         <li 
                             className="px-4 py-2 hover:bg-gray-100 cursor-pointer" 
-                            onClick={() => setIsMenuOpen(false)}
-                        >
-                            Projects
-                        </li>
-                        <li 
-                            className="px-4 py-2 hover:bg-gray-100 cursor-pointer" 
                             onClick={() => {
                                 setIsMenuOpen(false);
                                 scrolltoref(ContactRef);

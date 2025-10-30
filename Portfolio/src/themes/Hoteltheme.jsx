@@ -11,8 +11,11 @@ function Home(){
                     <Link to="/Hoteltheme">Home</Link>
                 </nav>
             </div>
-            <div className="bg-cover bg-center bg-no-repeat h-screen w-full" style={{backgroundImage: `url(${bgimage})`}}>
-                
+            <div className="flex justify-center items-center bg-cover bg-center bg-no-repeat h-screen w-full" style={{backgroundImage: `url(${bgimage})`}}>
+                <div>
+                    <h2 className="text-3xl text-white text-center">Welcome to the Hotel Theme</h2>
+                    <p className="text-lg text-white text-center">Experience luxury and comfort</p>
+                </div>
             </div>
         </div>
     )

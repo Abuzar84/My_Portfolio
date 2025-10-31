@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import MyLogo from './assets/as.png';  
-import Hoteltheme from './assets/Hoteltheme.png';
+import MyLogo from './assets/AS.webp';  
+import Hoteltheme from './assets/Hoteltheme.webp';
 
 function Home() {
     // Create References for sections

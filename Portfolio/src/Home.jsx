@@ -93,13 +93,14 @@ function Home() {
                             </h2>
                             <div className="w-auto">
                                 <h2 className="text-4xl sm:text-2xl font-extrabold mb-4">Website Themes</h2>
-                                <span className="flex justify-center ">
+                                <span className="flex justify-center">
                                     <Link to="/Hoteltheme" className="border-2">
                                         <img
                                             src={Hoteltheme}
-                                            alt="My Hotel Theme"
+                                            alt="Hotel theme thumbnail"
                                             title="My Hotel Theme"
                                             className="w-64"
+                                            loading="lazy"
                                         />
                                         My Hotel Theme
                                     </Link>

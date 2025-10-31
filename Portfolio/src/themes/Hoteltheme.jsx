@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import React from "react";
 import bgimage from '../assets/backgroundHotel.webp';
 
 // Layout component with navigation
@@ -210,8 +211,28 @@ function HotelContact() {
 }
 
 function HotelBooking() {
+
   return(
-    <div className="bg-cover bg-center bg-no-repeat h-[80vh]" style={{ backgroundImage: `url(${bgimage})` }}>
+    <div className="bg-cover bg-center bg-no-repeat h-[80vh] flex justify-center items-center" style={{ backgroundImage: `url(${bgimage})` }}>
+      <div className="bg-green-500/90 rounded-[2vw] p-4">
+        <form>
+          <div>
+            <label htmlFor="checkin" className="block text-gray-700">Check-in Date</label>
+            <input type="date" id="checkin" className="w-full border rounded-lg p-2" />
+          </div>
+          <div>
+            <label htmlFor="checkout" className="block text-gray-700">Check-out Date</label>
+            <input type="date" id="checkout" className="w-full border rounded-lg p-2" />
+          </div>
+          <div>
+            <label htmlFor="guests" className="block text-gray-700">Number of Guests</label>
+            <input type="number" id="guests" className="w-full border rounded-lg p-2" min="1" />
+          </div>
+          <div className="text-center">
+            <button type="submit" className="mt-4 bg-black text-white py-2 px-4 rounded-lg cursor-pointer">Book Now</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
